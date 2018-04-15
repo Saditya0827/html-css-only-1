@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+    background: #252839; 
+}
+
+h1, h2, h3, h4{
+    color: #f2b632;
+}
+
+p {
+    color: #b5b5b7;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: #b5b5b7;
+}
+
+header{
+    background: black;
+    height: 10vh;
+}
+
+.logo{
+    float: left;
+    margin-left: 5%; 
+    font-size: 2em; 
+    line-height: 10vh;
+}
+
+
+.navigation{
+    float: right;
+    width: 60%;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    line-height: 10vh;
+}
+
+.navigation ul li{
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.image-slider{
+    height : 50vh;
+}
+
+.after-slider{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.i{
+    background: lightgray;
+}
+
+hr{
+    margin: 3% 0;
+}
+
+.work-main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-work{
+    width: 90%;
+    height: 20vh;
+    margin-left: 3%;
+}
+
+.work{
+    width: 24%;
+}
+
+.work h3, p{
+    text-align: center;
+    margin: 2% 0;
+    font-size: 1.5em;
+}
+
+.work p{
+    font-size: 1.3rem;
+}
+
+#reviews{
+    display: flex;
+    justify-content: space-around;
+}
+
+.part{
+    width: 49%;
+}
+
+.img{
+    width: 50%;
+    height: 40vh;
+}
+
+.part-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part-text{
+    width: 30%;
+    margin-right: 10%;
+    padding: 3% 0;
+}
+
+.part-text:nth-child(odd){
+    margin-top: 3%;
+}
+
+.part-text-1 p{
+    font-size: 1.2em;
+}
+
